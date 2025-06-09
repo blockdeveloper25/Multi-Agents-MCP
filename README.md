@@ -1,7 +1,7 @@
 # Multi-Agent System with MCP (Multi-Agent Communication Protocol)
 
 ## Overview
-This project implements a multi-agent system using the Multi-Agent Communication Protocol (MCP), focusing on browser-based agent interactions and autonomous task execution.
+This project implements a multi-agent system using the Multi-Agent Communication Protocol (MCP), focusing on browser-based agent interactions and autonomous task execution itegrated with Local LLMS with the help of Groq.
 
 ## Features
 - Multi-agent architecture for distributed problem solving
@@ -58,8 +58,10 @@ pip install -e .
 The project can be run using either:
 ```bash
 python app.py
-# or
-python main.py
+```
+3. Create Your API KEY with env file:
+```bash
+    GROQ_API_KEY="YOUR_GROQ_API_KEY"
 ```
 
 ## Configuration
